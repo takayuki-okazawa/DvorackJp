@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Dvorack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>DvorackJP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>501368021C03633400F0EE01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>501368161C03633400F0EE01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>501368211C03633400F0EE01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>501368371C0470CB00F0EE01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

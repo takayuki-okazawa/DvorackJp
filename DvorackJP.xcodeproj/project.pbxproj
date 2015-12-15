@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		501368071C03633400F0EE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501368061C03633400F0EE01 /* AppDelegate.swift */; };
+		501368091C03633400F0EE01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501368081C03633400F0EE01 /* ViewController.swift */; };
+		5013680C1C03633400F0EE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5013680A1C03633400F0EE01 /* Main.storyboard */; };
+		5013680E1C03633400F0EE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5013680D1C03633400F0EE01 /* Assets.xcassets */; };
+		501368111C03633400F0EE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5013680F1C03633400F0EE01 /* LaunchScreen.storyboard */; };
+		5013681C1C03633400F0EE01 /* DvorackJPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5013681B1C03633400F0EE01 /* DvorackJPTests.swift */; };
+		501368271C03633400F0EE01 /* DvorackJPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501368261C03633400F0EE01 /* DvorackJPUITests.swift */; };
+		5013683B1C0470CB00F0EE01 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5013683A1C0470CB00F0EE01 /* KeyboardViewController.swift */; };
+		5013683F1C0470CB00F0EE01 /* Dvorack.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 501368381C0470CB00F0EE01 /* Dvorack.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		501368451C0471EB00F0EE01 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501368441C0471EB00F0EE01 /* KeyboardView.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		501368181C03633400F0EE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501367FB1C03633400F0EE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501368021C03633400F0EE01;
+			remoteInfo = DvorackJP;
+		};
+		501368231C03633400F0EE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501367FB1C03633400F0EE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501368021C03633400F0EE01;
+			remoteInfo = DvorackJP;
+		};
+		5013683D1C0470CB00F0EE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501367FB1C03633400F0EE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501368371C0470CB00F0EE01;
+			remoteInfo = Dvorack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		501368431C0470CB00F0EE01 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5013683F1C0470CB00F0EE01 /* Dvorack.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		501368031C03633400F0EE01 /* DvorackJP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DvorackJP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		501368061C03633400F0EE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		501368081C03633400F0EE01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5013680B1C03633400F0EE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5013680D1C03633400F0EE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		501368101C03633400F0EE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		501368121C03633400F0EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501368171C03633400F0EE01 /* DvorackJPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DvorackJPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5013681B1C03633400F0EE01 /* DvorackJPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvorackJPTests.swift; sourceTree = "<group>"; };
+		5013681D1C03633400F0EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501368221C03633400F0EE01 /* DvorackJPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DvorackJPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501368261C03633400F0EE01 /* DvorackJPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvorackJPUITests.swift; sourceTree = "<group>"; };
+		501368281C03633400F0EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501368381C0470CB00F0EE01 /* Dvorack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Dvorack.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5013683A1C0470CB00F0EE01 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		5013683C1C0470CB00F0EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501368441C0471EB00F0EE01 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501368001C03633400F0EE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501368141C03633400F0EE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5013681F1C03633400F0EE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501368351C0470CB00F0EE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501367FA1C03633400F0EE01 = {
+			isa = PBXGroup;
+			children = (
+				501368051C03633400F0EE01 /* DvorackJP */,
+				5013681A1C03633400F0EE01 /* DvorackJPTests */,
+				501368251C03633400F0EE01 /* DvorackJPUITests */,
+				501368391C0470CB00F0EE01 /* Dvorack */,
+				501368041C03633400F0EE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501368041C03633400F0EE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501368031C03633400F0EE01 /* DvorackJP.app */,
+				501368171C03633400F0EE01 /* DvorackJPTests.xctest */,
+				501368221C03633400F0EE01 /* DvorackJPUITests.xctest */,
+				501368381C0470CB00F0EE01 /* Dvorack.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501368051C03633400F0EE01 /* DvorackJP */ = {
+			isa = PBXGroup;
+			children = (
+				501368061C03633400F0EE01 /* AppDelegate.swift */,
+				501368081C03633400F0EE01 /* ViewController.swift */,
+				5013680A1C03633400F0EE01 /* Main.storyboard */,
+				5013680D1C03633400F0EE01 /* Assets.xcassets */,
+				5013680F1C03633400F0EE01 /* LaunchScreen.storyboard */,
+				501368121C03633400F0EE01 /* Info.plist */,
+			);
+			path = DvorackJP;
+			sourceTree = "<group>";
+		};
+		5013681A1C03633400F0EE01 /* DvorackJPTests */ = {
+			isa = PBXGroup;
+			children = (
+				5013681B1C03633400F0EE01 /* DvorackJPTests.swift */,
+				5013681D1C03633400F0EE01 /* Info.plist */,
+			);
+			path = DvorackJPTests;
+			sourceTree = "<group>";
+		};
+		501368251C03633400F0EE01 /* DvorackJPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				501368261C03633400F0EE01 /* DvorackJPUITests.swift */,
+				501368281C03633400F0EE01 /* Info.plist */,
+			);
+			path = DvorackJPUITests;
+			sourceTree = "<group>";
+		};
+		501368391C0470CB00F0EE01 /* Dvorack */ = {
+			isa = PBXGroup;
+			children = (
+				5013683A1C0470CB00F0EE01 /* KeyboardViewController.swift */,
+				501368441C0471EB00F0EE01 /* KeyboardView.xib */,
+				5013683C1C0470CB00F0EE01 /* Info.plist */,
+			);
+			path = Dvorack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501368021C03633400F0EE01 /* DvorackJP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5013682B1C03633400F0EE01 /* Build configuration list for PBXNativeTarget "DvorackJP" */;
+			buildPhases = (
+				501367FF1C03633400F0EE01 /* Sources */,
+				501368001C03633400F0EE01 /* Frameworks */,
+				501368011C03633400F0EE01 /* Resources */,
+				501368431C0470CB00F0EE01 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5013683E1C0470CB00F0EE01 /* PBXTargetDependency */,
+			);
+			name = DvorackJP;
+			productName = DvorackJP;
+			productReference = 501368031C03633400F0EE01 /* DvorackJP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		501368161C03633400F0EE01 /* DvorackJPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5013682E1C03633400F0EE01 /* Build configuration list for PBXNativeTarget "DvorackJPTests" */;
+			buildPhases = (
+				501368131C03633400F0EE01 /* Sources */,
+				501368141C03633400F0EE01 /* Frameworks */,
+				501368151C03633400F0EE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501368191C03633400F0EE01 /* PBXTargetDependency */,
+			);
+			name = DvorackJPTests;
+			productName = DvorackJPTests;
+			productReference = 501368171C03633400F0EE01 /* DvorackJPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		501368211C03633400F0EE01 /* DvorackJPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501368311C03633400F0EE01 /* Build configuration list for PBXNativeTarget "DvorackJPUITests" */;
+			buildPhases = (
+				5013681E1C03633400F0EE01 /* Sources */,
+				5013681F1C03633400F0EE01 /* Frameworks */,
+				501368201C03633400F0EE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501368241C03633400F0EE01 /* PBXTargetDependency */,
+			);
+			name = DvorackJPUITests;
+			productName = DvorackJPUITests;
+			productReference = 501368221C03633400F0EE01 /* DvorackJPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		501368371C0470CB00F0EE01 /* Dvorack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501368401C0470CB00F0EE01 /* Build configuration list for PBXNativeTarget "Dvorack" */;
+			buildPhases = (
+				501368341C0470CB00F0EE01 /* Sources */,
+				501368351C0470CB00F0EE01 /* Frameworks */,
+				501368361C0470CB00F0EE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dvorack;
+			productName = Dvorack;
+			productReference = 501368381C0470CB00F0EE01 /* Dvorack.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501367FB1C03633400F0EE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = takayuki;
+				TargetAttributes = {
+					501368021C03633400F0EE01 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					501368161C03633400F0EE01 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 501368021C03633400F0EE01;
+					};
+					501368211C03633400F0EE01 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 501368021C03633400F0EE01;
+					};
+					501368371C0470CB00F0EE01 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 501367FE1C03633400F0EE01 /* Build configuration list for PBXProject "DvorackJP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501367FA1C03633400F0EE01;
+			productRefGroup = 501368041C03633400F0EE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501368021C03633400F0EE01 /* DvorackJP */,
+				501368161C03633400F0EE01 /* DvorackJPTests */,
+				501368211C03633400F0EE01 /* DvorackJPUITests */,
+				501368371C0470CB00F0EE01 /* Dvorack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501368011C03633400F0EE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501368111C03633400F0EE01 /* LaunchScreen.storyboard in Resources */,
+				5013680E1C03633400F0EE01 /* Assets.xcassets in Resources */,
+				5013680C1C03633400F0EE01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501368151C03633400F0EE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501368201C03633400F0EE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501368361C0470CB00F0EE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501368451C0471EB00F0EE01 /* KeyboardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501367FF1C03633400F0EE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501368091C03633400F0EE01 /* ViewController.swift in Sources */,
+				501368071C03633400F0EE01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501368131C03633400F0EE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5013681C1C03633400F0EE01 /* DvorackJPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5013681E1C03633400F0EE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501368271C03633400F0EE01 /* DvorackJPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501368341C0470CB00F0EE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5013683B1C0470CB00F0EE01 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		501368191C03633400F0EE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501368021C03633400F0EE01 /* DvorackJP */;
+			targetProxy = 501368181C03633400F0EE01 /* PBXContainerItemProxy */;
+		};
+		501368241C03633400F0EE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501368021C03633400F0EE01 /* DvorackJP */;
+			targetProxy = 501368231C03633400F0EE01 /* PBXContainerItemProxy */;
+		};
+		5013683E1C0470CB00F0EE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501368371C0470CB00F0EE01 /* Dvorack */;
+			targetProxy = 5013683D1C0470CB00F0EE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5013680A1C03633400F0EE01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5013680B1C03633400F0EE01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5013680F1C03633400F0EE01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501368101C03633400F0EE01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		501368291C03633400F0EE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5013682A1C03633400F0EE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5013682C1C03633400F0EE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DvorackJP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.O.M-Creative-Team.DvorackJP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5013682D1C03633400F0EE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DvorackJP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.O.M-Creative-Team.DvorackJP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5013682F1C03633400F0EE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DvorackJPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.O.M-Creative-Team.DvorackJPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DvorackJP.app/DvorackJP";
+			};
+			name = Debug;
+		};
+		501368301C03633400F0EE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DvorackJPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.O.M-Creative-Team.DvorackJPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DvorackJP.app/DvorackJP";
+			};
+			name = Release;
+		};
+		501368321C03633400F0EE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DvorackJPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.O.M-Creative-Team.DvorackJPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DvorackJP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		501368331C03633400F0EE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DvorackJPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.O.M-Creative-Team.DvorackJPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DvorackJP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		501368411C0470CB00F0EE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Dvorack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.O.M-Creative-Team.DvorackJP.Dvorack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		501368421C0470CB00F0EE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Dvorack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.O.M-Creative-Team.DvorackJP.Dvorack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501367FE1C03633400F0EE01 /* Build configuration list for PBXProject "DvorackJP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501368291C03633400F0EE01 /* Debug */,
+				5013682A1C03633400F0EE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5013682B1C03633400F0EE01 /* Build configuration list for PBXNativeTarget "DvorackJP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5013682C1C03633400F0EE01 /* Debug */,
+				5013682D1C03633400F0EE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5013682E1C03633400F0EE01 /* Build configuration list for PBXNativeTarget "DvorackJPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5013682F1C03633400F0EE01 /* Debug */,
+				501368301C03633400F0EE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		501368311C03633400F0EE01 /* Build configuration list for PBXNativeTarget "DvorackJPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501368321C03633400F0EE01 /* Debug */,
+				501368331C03633400F0EE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		501368401C0470CB00F0EE01 /* Build configuration list for PBXNativeTarget "Dvorack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501368411C0470CB00F0EE01 /* Debug */,
+				501368421C0470CB00F0EE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501367FB1C03633400F0EE01 /* Project object */;
+}
